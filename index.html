@@ -2,13 +2,41 @@
 <html lang='en'>
 	<head>
 		<title>My First Website</title>
+		<link rel="stylesheet" href="../css/main_style.css">
+		<script src="https://cdn.jsdelivr.net/pyodide/v0.27.2/full/pyodide.js"></script>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=devise-width, initial-scale=1">
 	</head>
 	
 	<body>
-		<h1>My First Website...Welcome</h1>
+		<div class="header">
+			<h1>My First Website...Welcome</h1>
+		</div>
+
+		<div class="topnav">
+			<a href="#">Home</a>
+			<a href="#">Resume</a>
+			<a href="#">About</a>
+		</div>
+
+		<a href="./pages/pyo.html">Pyodide</a>
+
 		<p id="demo"></p>
+		<p id="dt"></p>
 
 		<script type="text/javascript" src="./scripts/welcome.js">
 		</script>
+
+		<!--
+		<script type="text/javascript" src="./scripts/mount_file_sys.js">
+		</script>
+		-->
+
+		<!--
+		<script type="text/javascript" src="./scripts/spawning_webby.js">
+		</script>
+		-->
+
 	</body>
 </html>
+
